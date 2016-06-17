@@ -13,14 +13,14 @@ _FYI: All the former Hadoop releases (2.3, 2.4.0, 2.4.1, 2.5.0, 2.5.1, 2.5.2, 2.
 If you'd like to try directly from the Dockerfile you can build the image as:
 
 ```
-docker build  -t sequenceiq/hadoop-ubuntu:2.6.0 .
+docker build -t ward07/hadoop-ubuntu .
 ```
 # Pull the image
 
 The image is also released as an official Docker image from Docker's automated build repository - you can always pull or refer the image when launching containers.
 
 ```
-docker pull sequenceiq/hadoop-ubuntu:2.6.0
+docker pull ward07/hadoop-ubuntu
 ```
 
 # Start a container
@@ -28,7 +28,7 @@ docker pull sequenceiq/hadoop-ubuntu:2.6.0
 In order to use the Docker image you have just build or pulled use:
 
 ```
-docker run -i -t sequenceiq/hadoop-ubuntu:2.6.0 /etc/bootstrap.sh -bash
+docker run -i -t ward07/hadoop-ubuntu /etc/bootstrap.sh -bash
 ```
 
 ## Testing

@@ -1,0 +1,15 @@
+<configuration>
+	<property>
+		<name>mapred.job.tracker</name>
+		<value>localhost:9001</value>
+	</property>
+	<property>
+		<name>mapreduce.jobtracker.http.address</name>
+		<value>0.0.0.0:50030</value>
+		<!-- <source>mapred-default.xml</source> -->
+	</property>
+	<property>
+		<name>mapreduce.framework.name</name>
+		<value>yarn</value>
+	</property>
+</configuration>
